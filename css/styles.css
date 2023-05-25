@@ -232,6 +232,8 @@ body {
   overflow: hidden;
 }
 
+
+
 .about-list {
   display: flex;
   align-items: center;
@@ -267,6 +269,7 @@ body {
 .about-title {
   margin-bottom: 8px;
 }
+
 
 /*-------About-US-------*/
 .about-us {
