@@ -361,26 +361,79 @@ body {
   justify-content: center;
   fill: #FFFFFF;
 }
+
+
+/*----------Customers----------*/
+
+.customers-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+
+}
+.customers-list {
+  display: flex;
+  
+  justify-content: center;
+  gap: 24px;
+  
+  
+}
+
+.customer-list-item {
+  
+     
+    width: 168px;
+    height: 88px;
+   
+}
+
+.customer-link {
+ 
+width: 100%;
+height: 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #8E8F99;
+  border-radius: 4px;
+}
+.customer-icon {
+  fill: #8E8F99;
+}
+
+.customer-title {
+
+  margin-bottom: 72px;
+}
+
  
 /*--------Footer--------*/
 
 .page-footer {
-  display: flex;
-  padding: 100px 0;
+ 
+  padding: 100px 0px;
   background-color: var(--secondary-background-color);
 }
 
+.footer-container {
+  display: flex;
+  align-items: center;
+ 
+  gap: 120px;
+  padding-right: 156px;
+}
 .footer-text {
   max-width: 264px;
-}
-
-.footer-text {
   color: var(--footer-text-color);
 }
+
 .logo-footer {
   display: inline-block;
   margin-bottom: 16px;
 }
+
 
 .span-item {
   color: var(--footer-text-color);
@@ -388,7 +441,19 @@ body {
 
 .social-media-text-footer {
 color: #FFFFFF;
+margin-bottom: 16px;
 }
+.social-block {
+  display: block;
+
+}
+.social-media-list:last-child  {
+  margin-right: 0;
+
+}
+
+
+
 
 /*-----------Portfolio------*/
 
