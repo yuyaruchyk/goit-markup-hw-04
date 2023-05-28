@@ -386,11 +386,13 @@ body {
 
   justify-content: center;
   gap: 24px;
+  
 }
 
 .customer-list-item {
   width: 168px;
   height: 88px;
+  
 }
 
 .customer-link {
@@ -402,8 +404,13 @@ body {
   justify-content: center;
   border: 1px solid #8e8f99;
   border-radius: 4px;
+  
+}
+
+.customer-link {
   color: var(--icons-customers-color);
 }
+
 .customer-icon {
   fill: currentColor;
 }
@@ -431,7 +438,8 @@ body {
 }
 
 .footer-description {
-  gap: 120px;
+  
+  margin-right: 120px;
 }
 
 .footer-container {
