@@ -437,19 +437,20 @@ body {
   background-color: var(--secondary-background-color);
 }
 
-.footer-description {
-  
-  margin-right: 120px;
-}
+
 
 .footer-container {
   display: flex;
   align-items: center;
-  gap: 120px;
-
+  
   padding-right: 156px;
   align-items: baseline;
 }
+
+.footer-description {
+  margin-right: 120px;
+}
+
 .footer-text {
   max-width: 264px;
   color: var(--footer-text-color);
