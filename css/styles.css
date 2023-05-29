@@ -160,6 +160,8 @@ body {
   padding-top: 188px;
   padding-bottom: 188px;
   align-items: center;
+  justify-content: center;
+ 
   background-color: var(--secondary-background-color);
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -169,7 +171,11 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1440px;
+  
+}
+
+.hero-container {
+  align-items: center;
 }
 
 .hero-title {
@@ -341,6 +347,9 @@ body {
 .name-title {
   margin-bottom: 8px;
 }
+.team-text {
+  margin-bottom: 8px;
+}
 
 .social-media-list {
   display: flex;
@@ -348,7 +357,7 @@ body {
   justify-content: center;
   gap: 24px;
 
-  margin-top: 8px;
+  
 }
 
 .social-media-item {
@@ -477,7 +486,8 @@ body {
 }
 
 .social-media-list-footer {
-  gap: 16px;
+  row-gap: 16px;
+  
 }
 
 .social-media-list:last-child {
